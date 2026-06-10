@@ -1,0 +1,1211 @@
+.booking_container .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_container .container aside {
+  max-width: 250px;
+  width: 100%;
+}
+
+.booking_container .container .room {
+  max-width: 810px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.booking_container .container aside #reload {
+  display: none;
+}
+
+.booking_container .container aside .travel_search_box .hotels_days {
+  border-bottom: 1px solid #D1D0D0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.booking_container .container aside .travel_search_box li {
+  flex: none;
+  margin: 5px 0;
+}
+
+.booking_container .container .filters .filters_box .button_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking_container .container .filters .filters_box .button_box button {
+  width: 49%;
+}
+
+.booking_container .container .search_box .btns {
+  background-color: #D1D0D0;
+  color: #000;
+}
+
+.booking_container .container .search_box .btns:hover {
+  background-color: #BBBBBB;
+}
+
+.filter_button {
+  display: none;
+  width: 100%;
+  background-color: #D1D0D0;
+}
+
+.booking_container .container aside .block {
+  margin-bottom: 40px;
+}
+
+.booking_container .container aside .block label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search_txt {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.search_txt span {
+  font-size: 1em;
+  line-height: 1.8em;
+  white-space: nowrap;
+  vertical-align: middle
+}
+
+.search_txt img {
+  width: 180px;
+}
+
+.search_txt>a {
+  display: block;
+  float: right;
+  text-align: center;
+  background-color: #D1D0D0;
+  border: 1px solid #D1D0D0;
+  color: #000;
+  padding: 0.24em 0;
+  line-height: 1.5em;
+  font-size: 1em;
+  width: 16%;
+}
+
+.search_txt>a:hover {
+  color: #fff;
+  background-color: #360
+}
+
+.search_txt h3 {
+  font-size: 1.1em;
+  border-bottom: 1px dashed #D1D0D0;
+  padding: 0 0 0.5em 0;
+  margin: 0 0 0.5em 0
+}
+
+.sort {
+  border-top: 1px solid #D1D0D0;
+  padding: 0.7em 0 0 0.2em;
+  margin: 0 0 1em 0;
+  position: relative
+}
+
+.sort::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.sort span {
+  float: left;
+  margin: 0 0 0 0;
+}
+
+.sort ul {
+  float: left;
+}
+
+.sort li {
+  float: left;
+}
+
+.sort a {
+  padding: 0 0.6em 0 0.6em;
+  color: #1C0E94;
+}
+
+.sort a.in {
+  background: #B1D8F4;
+  color: #1C0E94;
+}
+
+.sort a:hover {
+  color: #FCAB15
+}
+
+.sort a.in:hover {
+  color: #1C0E94;
+}
+
+.sort .map_button {
+  top: 0.5em;
+  text-align: center;
+  right: 0;
+  position: absolute;
+  width: 16%;
+  line-height: 2em;
+  background: url(../images/map_button.html)
+}
+
+.sort .map_button a {
+  margin: 0 0 0 0;
+  color: #000;
+}
+
+#hotelSlists {
+  font-size: 16px;
+  padding: 0 0 1px 0;
+}
+
+#hotelSlists .adsbygoogle {
+  margin: 1px 0 0 0
+}
+
+#hotelSlists .hotelS_list {
+  background: #fff;
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: 0 0 -1px 0;
+  border: 1px solid #D1D0D0;
+  padding: 1.5em 0 0 0;
+  transition: border 0.2s
+}
+
+#hotelSlists .hotelS_list.l {
+  border: 2px solid #f60;
+  margin: 0 0 -2px 0;
+}
+
+#hotelSlists .hotelS_list:hover {
+  border: 1px solid #999;
+}
+
+#hotelSlists .hotelS_list.l:hover {
+  border: 2px solid #FCAB15;
+}
+
+#hotelSlists .hotelS_link {
+  display: none;
+}
+
+#hotelSlists .hotelS_pic {
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  float: left;
+  width: 12em;
+  height: 9em;
+  margin: 0 1.2em 0.5em 2em;
+}
+
+#hotelSlists .hotelS_pic.international_pic {
+  width: 120px;
+  height: 90px;
+}
+
+#hotelSlists .hotelS_pic img {
+  display: none
+}
+
+#hotelSlists .hotelS_txt {
+  color: #000;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  padding: 0 0 1.5em;
+  margin: 0 2em 0 0;
+  line-height: 1.3em;
+  overflow: hidden;
+  position: relative;
+}
+
+#hotelSlists .hotelS_txt * {
+  color: #000
+}
+
+#hotelSlists .hotelS_names {
+  display: block;
+  margin: 0.3em 9em 0 0
+}
+
+#hotelSlists .hotelS_name {
+  display: block;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0 0 0.3em;
+}
+
+#hotelSlists .hotelS_name a:hover,
+#hotelSlists a.hotelS_name:hover,
+#hotelSlists a:hover .hotelS_name,
+#hotelSlists .hotelS_p a:hover,
+#hotelSlists a.hotelS_p:hover,
+#hotelSlists a:hover .hotelS_p,
+#hotelSlists .hotelS_address a:hover,
+#hotelSlists a.hotelS_address:hover,
+#hotelSlists a:hover .hotelS_address,
+#hotelSlists .hotelS_station a:hover,
+#hotelSlists a.hotelS_station:hover,
+#hotelSlists a:hover .hotelS_station {
+  color: #FCAB15
+}
+
+#hotelSlists .hotelS_list.l .hotelS_names {
+  margin: 0.3em 9em 0 0
+}
+
+.hotelS_stars {
+  display: block;
+  font-size: 1.2em;
+  margin: 0.1em 0.5em 0.45em 0em;
+  background: url(../_inc/gridlist/images/grid_stars.svg);
+  background-size: 10em 2em;
+  height: 1em;
+  vertical-align: middle;
+  width: 5em;
+}
+
+.hotelS_stars45 {
+  background-position: 0em bottom
+}
+
+.hotelS_stars40 {
+  background-position: -1em 0
+}
+
+.hotelS_stars35 {
+  background-position: -1.06em bottom
+}
+
+.hotelS_stars30 {
+  background-position: -2em 0
+}
+
+.hotelS_stars25 {
+  background-position: -2em bottom
+}
+
+.hotelS_stars20 {
+  background-position: -3em 0
+}
+
+.hotelS_stars15 {
+  background-position: -3em bottom
+}
+
+.hotelS_stars10 {
+  background-position: -4em 0
+}
+
+.hotelS_stars05 {
+  background-position: -4em bottom
+}
+
+#hotelSlists .hotelS_list_tripadvisor {
+  margin: 0 0 0.75em 0;
+  font-size: 0.857em;
+  line-height: 1.8em;
+  text-align: left;
+  display: block
+}
+
+.hotelS_icon {
+  display: inline-block;
+  *display: inline;
+  width: 1em;
+  height: 1em;
+  background: url(../_inc/gridlist/images/hotellist_icon.png) no-repeat center 0;
+  background-size: 2em auto;
+  font-size: 1.6em;
+  margin: -0.2em 0 -0.2em 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+.hotelS_icon_hotel {
+  background-position: 0 0;
+}
+
+a:hover .hotelS_icon_hotel {
+  background-position: -1em 0;
+}
+
+.hotelS_icon_room {
+  background-position: 0 -1em;
+}
+
+a:hover .hotelS_icon_room {
+  background-position: -1em -1em;
+}
+
+.hotelS_icon_address {
+  background-position: 0 -2em;
+}
+
+a:hover .hotelS_icon_address {
+  background-position: -1em -2em;
+}
+
+.hotelS_icon_prices {
+  background-position: 0 -3em;
+}
+
+a:hover .hotelS_icon_prices {
+  background-position: -1em -3em;
+}
+
+.hotelS_icon_hotel {
+  background-position: 0 0;
+}
+
+#hotelSlists .hotelS_list_tripadvisor a {
+  text-decoration: none;
+  color: #666
+}
+
+#hotelSlists .hotelS_list_tripadvisor a:hover {
+  text-decoration: none;
+  color: #000
+}
+
+#hotelSlists .hotelS_list_tripadvisor img {
+  width: 8em;
+  border: 0 none;
+  height: auto;
+  margin: 0 0.3em 0 0;
+  vertical-align: sub;
+  opacity: 0.8
+}
+
+#hotelSlists .hotelS_list_tripadvisor a:hover img {
+  opacity: 1
+}
+
+.hotelS_rate {
+  position: absolute;
+  bottom: 0em;
+  right: 0em;
+}
+
+.sign {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 2.4em;
+}
+
+.sign span {
+  display: inline-block;
+  text-align: center;
+  padding: 0 0.5em;
+  background: #f60;
+  color: #FFF
+}
+
+.sign span.sign2 {
+  background: #FCAB15;
+}
+
+#hotelSlists .hotelS_list.l+.hotelS_list.l .hotelS_beroom {
+  display: none;
+}
+
+#hotelSlists .hotelS_rate {
+  top: 0.4em;
+  text-align: right;
+  bottom: auto
+}
+
+#hotelSlists .hotelS_list.l .hotelS_rate {}
+
+#hotelSlists .hotelS_list .hotelS_rooms .hotelS_rate {
+  top: 0.72em;
+}
+
+#hotelSlists .hotelS_rate i {
+  overflow: hidden;
+  width: 100%;
+  font-style: normal;
+  text-align: right;
+  color: #000;
+  padding: 0 0 0.5em;
+  display: block;
+  font-size: 0.87em;
+}
+
+#hotelSlists .hotelS_address,
+#hotelSlists .hotelS_station {
+  display: block;
+  margin: 0 0 0.6em 0;
+}
+
+#hotelSlists .hotelS_address {
+  margin: 0 8.2em 0.6em 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#hotelSlists .hotelS_p {
+  display: block;
+  margin: 0 8.8em 0.8em 0;
+}
+
+#hotelSlists .hotelS_names .hotelS_p {
+  margin: 0 0em 0.8em 0;
+}
+
+#hotelSlists .hotelS_icon_address {
+  background-position: 0em -2em;
+  margin: 0 -3px;
+}
+
+#hotelSlists a:hover .hotelS_icon_address {
+  background-position: -1em -2em;
+}
+
+#hotelSlists .hotelS_station_icon {
+  background: #666 url("../_inc/gridlist/images/grid_station.png") no-repeat 0.2em center;
+  border-radius: 0.2em;
+  display: block;
+  float: left;
+  margin: 0 0.2em 0 0;
+  background-size: auto 0.8em;
+  height: 1.2em;
+  width: 1.2em;
+  font-size: 1em
+}
+
+#hotelSlists a:hover .hotelS_station_icon {
+  background-color: #FCAB15
+}
+
+#hotelSlists .hotelS_station a::before {
+  content: " ";
+  display: inline-block;
+  *display: inline;
+  width: 1em;
+  height: 1em;
+  background: url(../_inc/gridlist/images/flag_icon.html) no-repeat 0 0;
+  background-size: 2em auto;
+  font-size: 1.6em;
+  margin: -0.2em -3px;
+  position: relative;
+  vertical-align: middle;
+}
+
+#hotelSlists .hotelS_station a:hover:before {
+  background-position: -1em 0
+}
+
+#hotelSlists .listtab_hoteltxt::before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#hotelSlists .go_cal {
+  line-height: 1.2em;
+  margin: 0 0 0.75em 4.5%;
+  width: 28.833%;
+  float: left;
+}
+
+#hotelSlists .listtab_hoteltxt h3 {
+  font-weight: inherit;
+}
+
+#hotelSlists .listtab_hoteltxt li {
+  color: #FCAB15;
+}
+
+#hotelSlists .hotelS_prices_t {
+  color: #666;
+  font-size: 0.87em;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+#hotelSlists .hotelS_prices {
+  float: none;
+  display: block;
+  color: #000;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 0 0 0.6em 0;
+  padding: 0;
+  text-align: right;
+}
+
+#hotelSlists .hotelS_prices+.hotelS_prices_t {
+  text-align: right;
+  padding: 0 0 0.5em;
+  margin-top: -0.7em
+}
+
+#hotelSlists .hotelS_prices em {
+  font-style: normal;
+  vertical-align: sub;
+  color: #c7000b;
+  font-size: 1.6em;
+  line-height: 1em;
+  margin: 0 0.1em 0 0
+}
+
+#hotelSlists .hotelS_station {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 0 0 0.6em 0;
+}
+
+#hotelSlists .hotelS_rooms {
+  position: relative;
+  font-size: 1em;
+  margin: 0 0 0em;
+  top: 0em;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button {
+  cursor: pointer;
+  position: relative;
+  line-height: 2em;
+  padding: 0em 0 1em 2em;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button:hover {
+  color: #FCAB15;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button::before {
+  content: " ";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  margin: 0 0.5em 0 0;
+  border: 0.3em solid #666;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  vertical-align: middle;
+}
+
+#hotelSlists .hotelS_rooms a.hotelS_li_button {
+  line-height: 3em;
+  display: block;
+  background: #D1D0D0;
+  padding: 0 0;
+  text-align: center;
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s, top 0.8s;
+}
+
+#hotelSlists .hotelS_rooms a.hotelS_li_button:hover {
+  background: #D1D0D0;
+  color: #000
+}
+
+#hotelSlists .hotelS_rooms.op a.hotelS_li_button {
+  max-height: 3.5em;
+}
+
+#hotelSlists .hotelS_rooms.op .op2 a.hotelS_li_button {
+  max-height: 0;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button:hover:before {
+  border-top: 0.3em solid #FCAB15;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button::after {
+  content: "推薦訂房優惠及房型";
+  display: inline;
+}
+
+#hotelSlists .hotelS_rooms.op .hotelS_button::after {
+  content: "收合";
+}
+
+#hotelSlists .hotelS_rooms .uls {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
+
+#hotelSlists .hotelS_rooms ul {
+  transition: max-height 1s linear;
+  display: block;
+  float: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  max-height: 0;
+}
+
+#hotelSlists .hotelS_rooms.op .hotelS_button::before {
+  border-bottom: 0.3em solid #666;
+  border-top: none;
+}
+
+#hotelSlists .hotelS_rooms.op .hotelS_button:hover:before {
+  border-bottom: 0.3em solid #FCAB15;
+  border-top: none;
+}
+
+#hotelSlists .hotelS_rooms.hotelS_rooms_less .hotelS_button {}
+
+#hotelSlists .hotelS_rooms .hotelS_button_top {
+  display: none;
+  overflow: hidden;
+  transition: height 0.8s, top 0.8s;
+  cursor: pointer;
+  position: absolute;
+  font-size: 1.5em;
+  top: 0em;
+  height: 0em;
+  right: 1.5em;
+  width: 1em;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button_top::before,
+#hotelSlists .hotelS_rooms .hotelS_button_top::after {
+  content: " ";
+  display: block;
+  width: 1em;
+  height: 0.15em;
+  border-radius: 0.1em;
+  position: absolute;
+  top: 0.4em;
+  left: 0;
+  background-color: #999;
+}
+
+#hotelSlists .hotelS_rooms .uls::before {
+  content: " ";
+  display: block;
+  width: 1em;
+  height: 0em;
+  transition: width 1s linear;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button_top::before {
+  transform: rotate(45deg);
+}
+
+#hotelSlists .hotelS_rooms .hotelS_button_top::after {
+  transform: rotate(-45deg);
+}
+
+#hotelSlists .hotelS_rooms.op .hotelS_button_top {
+  top: -1.2em;
+  height: 1.2em;
+}
+
+#hotelSlists .hotelS_rooms.op .hotelS_button_top:hover:before,
+#hotelSlists .hotelS_rooms.op .hotelS_button_top:hover:after {
+  background-color: #666;
+}
+
+#hotelSlists .hotelS_rooms.op ul.ul1 {
+  max-height: 20em;
+}
+
+#hotelSlists .hotelS_rooms.op .uls.op2 ul.ul2 {
+  max-height: 450em;
+}
+
+#hotelSlists .hotelS_rooms.op .uls::before {
+  height: 1em;
+}
+
+#hotelSlists .hotelS_rooms li {
+  margin-bottom: 2px;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_name {
+  display: block;
+  font-size: 1em;
+  line-height: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0.5em 20em 0.5em 0;
+}
+
+#hotelSlists .hotelS_rooms a:hover .hotelS_name {
+  color: #000
+}
+
+#hotelSlists .hotelS_rooms .tk .hotelS_name,
+#hotelSlists .hotelS_rooms .hs .hotelS_name,
+#hotelSlists .hotelS_rooms .of .hotelS_name {
+  margin: 0 20em 0 0;
+}
+
+#hotelSlists .hotelS_rooms li a {
+  background: #f5f5f5;
+  line-height: 1.5em;
+  position: relative;
+  color: #000;
+  display: block;
+  padding: 0.5em 0 0.5em 2em;
+}
+
+#hotelSlists .hotelS_rooms li a:hover {
+  background: #D1D0D0;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_rate {
+  top: 0.8em;
+  height: auto;
+  right: 2em;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_before_price {
+  line-height: 2.5em;
+  color: #666;
+  display: inline-block;
+  font-size: 0.9em;
+  text-decoration: line-through;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_prices {
+  line-height: 2.4em;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  margin: 0 0.5em 0 0;
+  vertical-align: top;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_prices_t {
+  line-height: 0;
+}
+
+#hotelSlists .hotelS_rooms .tk .hotelS_prices em,
+#hotelSlists .hotelS_rooms .hs .hotelS_prices em,
+#hotelSlists .hotelS_rooms .of .hotelS_prices em {
+  color: #000;
+}
+
+#hotelSlists .hotelS_rooms .th {
+  border-bottom: 1px solid #D1D0D0;
+  position: relative;
+}
+
+#hotelSlists .hotelS_rooms .th .hotelS_name {
+  padding: 0 0 0 0.8em;
+  font-size: 1em;
+}
+
+#hotelSlists .hotelS_rooms .th .hotelS_rate {
+  top: 0em;
+}
+
+#hotelSlists .hotelS_rooms .th .hotelS_prices {
+  line-height: 2em;
+}
+
+#hotelSlists .hotelS_rooms .cheap .hotelS_prices,
+#hotelSlists .hotelS_rooms .cheap .hotelS_prices em {
+  color: #FCAB15
+}
+
+#hotelSlists .hotelS_rooms li a::before {
+  ;
+  display: block;
+  height: 1.2em;
+  line-height: 1.4em;
+  font-size: 12px;
+  position: relative;
+  vertical-align: middle;
+  background: no-repeat left center;
+  background-size: auto 100%;
+  margin: 0 0.3em 0 0;
+  padding: 0 0 0 1.5em;
+  background-image: url(../images/hotel.html);
+}
+
+#hotelSlists .hotelS_rooms .of a::before {
+  background-image: url(../images/hotel.html);
+  content: "飯店官網";
+  padding: 0 0 0 1.5em;
+}
+
+#hotelSlists .hotelS_rooms .tk a::before {
+  background-image: url(../images/travelking.html);
+  content: "加盟";
+  padding: 0 0 0 5.1em;
+}
+
+#hotelSlists .hotelS_rooms .hs a::before {
+  background-image: url(../images/hotelscom.html);
+  content: "供應";
+  padding: 0 0 0 5.1em;
+}
+
+#hotelSlists .hotelS_booking {
+  overflow: hidden;
+  display: block;
+  background-color: #FCAB15;
+  color: #FFF;
+  text-align: center;
+  margin: 0em 0 auto auto;
+  float: none;
+  font-size: 1.1em;
+  line-height: 2em;
+  width: 6em;
+  border-radius: 0;
+}
+
+#hotelSlists .hotelS_prices+.hotelS_booking {
+  margin: 0.8em 0 auto auto;
+}
+
+#hotelSlists ul .hotelS_booking {
+  width: 5em;
+  background-color: #D1D0D0;
+  color: #000;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_booking {
+  float: right;
+  position: relative;
+  bottom: auto;
+}
+
+#hotelSlists .hotelS_booking:hover,
+#hotelSlists a:hover .hotelS_booking {
+  background-color: #DB8F03;
+  color: #fff
+}
+
+#hotelSlists .hotelS_rooms .hotelS_prices {
+  float: none;
+}
+
+#hotelSlists .hotelS_rooms .hotelS_booking {
+  float: none;
+  margin: 0;
+  display: inline-block;
+}
+
+#hotelSlists .hotelS_list>.rooms_clear {
+  clear: both;
+  margin: 0 0 1em 0
+}
+
+#hotelSlists .hotelS_list>.hotelS_rooms+.rooms_clear {
+  margin: 0
+}
+
+@media screen and (max-width:970px) {
+  .booking_container .container {
+    flex-direction: column;
+  }
+  .booking_container .container aside,
+  .booking_container .container .room {
+    max-width: initial;
+    margin-left: 0;
+  }
+  .booking_container .container .search_box {
+    margin-bottom: 20px;
+  }
+  .booking_container .container .search_box h2,
+  .booking_container .container aside .travel_search_box .hotels_days {
+    display: none;
+  }
+  .booking_container .container aside .open .travel_search_box {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .filter_button,
+  .booking_container .container aside #reload,
+  .booking_container .container .travel_search_box_open .travel_search_box .hotels_days {
+    display: block;
+  }
+  .filters_open .booking_container .container .filters .filters_box {
+    margin-left: 0;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    transition: .4s all ease-in-out;
+  }
+  .booking_container .container .filters {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+  }
+  .filters_open .booking_container .container .filters {
+    visibility: visible;
+    z-index: 10;
+  }
+  .booking_container .container .filters .filters_box {
+    max-width: 250px;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: -250px;
+    overflow-y: scroll;
+  }
+  #hotelSlists .hotelS_rooms.hotelS_rooms_less .hotelS_button,
+  #hotelSlists .hotelS_p,
+  .display,
+  .display li.in {
+    display: none;
+  }
+  #hotelSlists .hotelS_pic {
+    margin: 0 0.8em 0 0;
+    width: 16em;
+    height: 12em;
+  }
+  /*  */
+  #hotelSlists .hotelS_rooms {
+    margin: 0;
+    top: 0;
+    line-height: 2em;
+  }
+  #hotelSlists .hotelS_rooms::before {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #hotelSlists .hotelS_rooms li a {
+    padding: 0.7em 0.8em 0.4em;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_before_price,
+  #hotelSlists .hotelS_rooms .hotelS_booking {
+    display: none;
+  }
+  #hotelSlists .hotelS_rooms ul {}
+  #hotelSlists .hotelS_rooms .hotelS_rate {
+    right: 1.5em;
+  }
+  #hotelSlists .hotelS_rooms .tk .hotelS_name,
+  #hotelSlists .hotelS_rooms .hs .hotelS_name,
+  #hotelSlists .hotelS_rooms .of .hotelS_name,
+  #hotelSlists .hotelS_rooms .hotelS_name {
+    margin-right: 7em
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button_top {
+    display: none
+  }
+  #hotelSlists .hotelS_rooms ul::before {
+    display: none
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button {
+    padding: 0 0 0.5em 0.75em;
+  }
+  #hotelSlists .hotelS_list>.rooms_clear {
+    margin: 0
+  }
+  #GroupCity {
+    padding: 0 2%;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .search_txt {
+    display: none;
+  }
+  #hotelSlists .hotelS_txt {
+    width: 64%;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    padding: 0 0 1.1em 0;
+    margin: 0;
+  }
+  #hotelSlists .hotelS_names {
+    width: auto;
+    margin: 0.3em 0 0 0;
+    float: none;
+    overflow: hidden
+  }
+  #hotelSlists .hotelS_list.l .hotelS_names {
+    margin: 0.3em 0 0 0
+  }
+  #hotelSlists .hotelS_link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  #hotelSlists .hotelS_name {
+    font-size: 1.2em;
+    display: block;
+  }
+  #hotelSlists .hotelS_name::after {
+    /*content:" "; display:inline-block; width:6em; height: 1.5em;*/
+  }
+  #hotelSlists .hotelS_rooms .hotelS_prices {}
+  #hotelSlists .hotelS_prices_t {
+    margin: -0.5em 0 0;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_prices_t {
+    margin: 0 0 0;
+  }
+  #hotelSlists .hotelS_list.l .hotelS_rate,
+  #hotelSlists .hotelS_rate {
+    top: 0;
+    position: relative;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_rate {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 1.1em;
+  }
+  #hotelSlists .hotelS_list.l .hotelS_rooms .hotelS_rate {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0.8em;
+  }
+  #hotelSlists .hotelS_p {
+    margin: 0.7em 0 0 0;
+  }
+  #hotelSlists .hotelS_prices {
+    text-align: left;
+  }
+  #hotelSlists .hotelS_prices+.hotelS_prices_t {
+    text-align: left;
+  }
+  #hotelSlists .hotelS_rate i {
+    display: none;
+    padding: 0.7em 0 0.3em 0;
+  }
+  #hotelSlists .hotelS_pic {
+    width: 30% !important;
+    height: 11.5em !important;
+    margin: 0 2% 0.5em 0;
+    vertical-align: middle;
+    float: none;
+    display: inline-block;
+  }
+  #hotelSlists .hotelS_list {
+    padding: 0.5em 0 0 0;
+  }
+  /*#hotelSlists .hotelS_address, {margin: 0 0 0.8em 0;
+#hotelSlists .hotelS_list_tripadvisor,}
+#hotelSlists .hotelS_icon_address,*/
+  #hotelSlists .hotelS_booking,
+  #hotelSlists .hotelS_station {
+    display: none;
+  }
+  #hotelSlists .hotelS_list_tripadvisor {
+    margin: 0 0 0.4em;
+  }
+  #hotelSlists .hotelS_address {
+    margin: 0;
+  }
+  #hotelSlists .hotelS_icon_address {
+    margin: 0em 0;
+  }
+  #hotelSlists .hotelS_rooms {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0.2em 0
+  }
+  #hotelSlists .hotelS_rooms.op {
+    position: relative;
+    height: auto;
+  }
+  #hotelSlists .hotelS_rooms ul {
+    transition: max-height 0s ease 0s;
+  }
+  #hotelSlists .hotelS_rooms.op ul {
+    transition: max-height 1s ease 0s;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button {
+    text-align: center;
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button::after {
+    content: " ";
+  }
+  #hotelSlists .hotelS_rooms.op .hotelS_button::before {
+    width: 0.6em;
+    height: 0.6em;
+    border: 2px solid #666;
+    border-width: 2px 2px 0 0;
+    transform: rotate(-45deg);
+    display: inline-block;
+  }
+  #hotelSlists .hotelS_rooms.op .hotelS_button:hover:before {
+    border: 2px solid #FCAB15;
+    border-width: 2px 2px 0 0;
+  }
+  #hotelSlists .hotelS_rooms.op .hotelS_button::after {
+    content: "Close";
+  }
+  #hotelSlists .hotelS_rooms .hotelS_button::before {
+    display: none
+  }
+  #hotelSlists .go_cal {
+    width: 45.5%
+  }
+}
+
+@media screen and (max-width:450px) {
+  #hotelSlists .go_cal {
+    width: 95.5%
+  }
+  .sign {
+    font-size: 12px;
+  }
+  .sign span {
+    display: block;
+    margin: 0 0 0.5em;
+  }
+}
+
+@media screen and (min-width:1180px) {
+  #hotelSlists .hotelS_booking {
+    width: 7.3em;
+  }
+  #hotelSlists ul .hotelS_booking {
+    width: 6.3em;
+  }
+  #hotelSlists .hotelS_pic {
+    width: 16em;
+    height: 12em;
+  }
+}
